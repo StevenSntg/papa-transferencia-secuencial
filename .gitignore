@@ -1,0 +1,10 @@
+# Salidas de ejecuciones locales (la corrida oficial guarda en Google Drive)
+_prueba/
+_local/
+# Modelos: el de la DEMO se publica como «release» del repositorio
+*.keras
+*.h5
+# Datos: se descargan con scripts/descargar_datasets.py
+datos/
+__pycache__/
+.ipynb_checkpoints/

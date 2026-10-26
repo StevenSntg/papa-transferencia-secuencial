@@ -1,0 +1,122 @@
+{
+ "semilla": 42,
+ "dhash_bits": 256,
+ "umbral_hamming": 12,
+ "proporciones": {
+  "entrenamiento": 0.7,
+  "prueba": 0.15,
+  "validacion": 0.15
+ },
+ "campo": {
+  "imagenes_originales": 3076,
+  "grupos_duplicados_exactos": 55,
+  "grupos_exactos_entre_clases": 6,
+  "descartadas_copia_exacta": 49,
+  "descartadas_etiqueta_contradictoria": 12,
+  "imagenes_depuradas": 3015,
+  "pares_casi_duplicados": 14,
+  "pares_casi_duplicados_entre_clases": 0,
+  "grupos_casi_duplicados": 14,
+  "imagenes_en_grupos_casi_duplicados": 28,
+  "por_clase": {
+   "Bacteria": {
+    "original": 569,
+    "depurada": 569,
+    "entrenamiento": 399,
+    "validacion": 85,
+    "prueba": 85
+   },
+   "Fungi": {
+    "original": 748,
+    "depurada": 740,
+    "entrenamiento": 518,
+    "validacion": 111,
+    "prueba": 111
+   },
+   "Healthy": {
+    "original": 201,
+    "depurada": 199,
+    "entrenamiento": 139,
+    "validacion": 30,
+    "prueba": 30
+   },
+   "Nematode": {
+    "original": 68,
+    "depurada": 67,
+    "entrenamiento": 47,
+    "validacion": 10,
+    "prueba": 10
+   },
+   "Pest": {
+    "original": 611,
+    "depurada": 601,
+    "entrenamiento": 421,
+    "validacion": 90,
+    "prueba": 90
+   },
+   "Phytopthora": {
+    "original": 347,
+    "depurada": 309,
+    "entrenamiento": 217,
+    "validacion": 46,
+    "prueba": 46
+   },
+   "Virus": {
+    "original": 532,
+    "depurada": 530,
+    "entrenamiento": 370,
+    "validacion": 80,
+    "prueba": 80
+   }
+  },
+  "totales": {
+   "original": 3076,
+   "depurada": 3015,
+   "entrenamiento": 2111,
+   "validacion": 452,
+   "prueba": 452
+  }
+ },
+ "laboratorio": {
+  "imagenes_originales": 2152,
+  "grupos_duplicados_exactos": 0,
+  "grupos_exactos_entre_clases": 0,
+  "descartadas_copia_exacta": 0,
+  "descartadas_etiqueta_contradictoria": 0,
+  "imagenes_depuradas": 2152,
+  "pares_casi_duplicados": 0,
+  "pares_casi_duplicados_entre_clases": 0,
+  "grupos_casi_duplicados": 0,
+  "imagenes_en_grupos_casi_duplicados": 0,
+  "por_clase": {
+   "Potato___Early_blight": {
+    "original": 1000,
+    "depurada": 1000,
+    "entrenamiento": 700,
+    "validacion": 150,
+    "prueba": 150
+   },
+   "Potato___Late_blight": {
+    "original": 1000,
+    "depurada": 1000,
+    "entrenamiento": 700,
+    "validacion": 150,
+    "prueba": 150
+   },
+   "Potato___healthy": {
+    "original": 152,
+    "depurada": 152,
+    "entrenamiento": 106,
+    "validacion": 23,
+    "prueba": 23
+   }
+  },
+  "totales": {
+   "original": 2152,
+   "depurada": 2152,
+   "entrenamiento": 1506,
+   "validacion": 323,
+   "prueba": 323
+  }
+ }
+}

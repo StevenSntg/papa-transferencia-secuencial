@@ -1,0 +1,13 @@
+# Dependencias del cuaderno Modelo_Investigacion.ipynb.
+# Todas vienen preinstaladas en Google Colab; las cotas mínimas garantizan Keras 3 y las funciones usadas.
+# Las versiones exactas de la corrida que respalda el artículo quedan en resultados/entorno.json y se fijan
+# aquí (==) después de esa corrida.
+tensorflow>=2.16
+keras>=3.3
+numpy>=1.26
+pandas>=2.0
+scikit-learn>=1.3
+scipy>=1.11
+matplotlib>=3.8
+pillow>=10.0
+psutil>=5.9

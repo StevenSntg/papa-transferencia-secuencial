@@ -1,0 +1,6 @@
+caso,archivo,conjunto,clase_esperada,archivo_original,sha256,descripcion
+1,caso1_phytophthora.jpg,campo,Phytopthora,1692332350385.jpg,15d54a9ebd3a387f437dbd6e095504446d1882342b91a05a3f16dae53bd2e7c2,"Campo · tizón tardío (Phytophthora), clase comparable con PlantVillage"
+2,caso2_sana.jpg,campo,Healthy,20230712_121759.jpg,fc546798b742e8e821170f194a0162be42e197cf86a0534aa4c185bf5cfd5b3a,"Campo · hoja sana, clase comparable con PlantVillage"
+3,caso3_hongos.jpg,campo,Fungi,1692332350583.jpg,c0359d43557c25703dec02459c86148235c3f840814bf89625c2713e67168dc9,"Campo · hongos, la clase más frecuente"
+4,caso4_nematodos.jpg,campo,Nematode,20230712_122802.jpg,b9f0d75c155bc1c5baeebcd8de19cf51e501dfce2e10be4edabedf93058a3ac5,"Caso límite · nematodos, la clase más rara (10 fotos de prueba)"
+5,caso5_plantvillage_tizon_tardio.jpg,laboratorio,Potato___Late_blight,0051e5e8-d1c4-4a84-bf3a-a426cdad6285___RS_LB 4640.JPG,96baa8bba4a2397887e94753a8908e35108a88a1c4715c7eab259a3bfae00b27,Caso atípico · foto de laboratorio (PlantVillage) que el modelo de campo nunca vio
